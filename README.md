@@ -1,8 +1,8 @@
 # Homework_Sharing_Website
 
-##DB create code
-###groups
-'''
+## DB create code
+### groups
+```
 CREATE TABLE `groups` (
 	`group_id` TEXT NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci',
 	`group_name` TEXT NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci',
@@ -12,10 +12,10 @@ CREATE TABLE `groups` (
 COLLATE='utf8mb4_general_ci'
 ENGINE=InnoDB
 ;
-'''
+```
 
-###items
-'''
+### items
+```
 CREATE TABLE `items` (
 	`group_id` TEXT NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci',
 	`item_id` TEXT NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci',
@@ -30,4 +30,4 @@ CREATE TABLE `items` (
 COLLATE='utf8mb4_general_ci'
 ENGINE=InnoDB
 ;
-'''
+```
